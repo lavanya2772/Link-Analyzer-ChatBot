@@ -97,7 +97,7 @@ This project combines the power of web scraping and AI to build a chatbot that c
 
 ---
 
-## 🤔 Example Usage
+## Example Usage
 
 1. Enter a website URL (e.g., a news article or blog post).
 2. The chatbot extracts the content.
