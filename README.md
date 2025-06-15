@@ -40,12 +40,11 @@ This project combines the power of web scraping and AI to build a chatbot that c
 
 ```
 ├── app/
-│   ├── static/                # CSS, JS, images
-│   ├── templates/             # HTML templates
-│   ├── main.py                # Flask application
+│   ├── static/                # CSS, JS
+│   ├── templates/             # HTML
+│   ├── app.py                # Flask application
 │   ├── content_extractor.py   # Web scraping logic
-│   ├── qa_engine.py           # AI Q&A model code
-├── .env                       # Environment variables (API keys)
+│   ├── groq_api.py           # Setting API Keys                     
 ├── requirements.txt
 ├── README.md
 ```
@@ -89,7 +88,7 @@ This project combines the power of web scraping and AI to build a chatbot that c
 5. **Run the app**
 
    ```bash
-   python main.py
+   python app.py
    ```
 
 6. **Open in browser**
