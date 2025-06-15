@@ -57,8 +57,8 @@ This project combines the power of web scraping and AI to build a chatbot that c
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/ai-chatbot-web-content-qa.git
-   cd ai-chatbot-web-content-qa
+   git clone https://github.com/lavanya2772/Link-Analyzer-ChatBot.git
+   cd Link-Analyzer-ChatBot
    ```
 
 2. **Create a virtual environment (optional but recommended)**
@@ -76,24 +76,16 @@ This project combines the power of web scraping and AI to build a chatbot that c
 
 4. **Set up your API Key**
 
-   If your project uses an external LLM API (e.g., OpenAI or Hugging Face), create a `.env` file in the root directory:
+   Open Command Prompt or PowerShell as Administrator and run:
 
-   ```env
-   API_KEY=your_api_key_here
+   ```cmd
+   setx API_KEY "your_api_key_here"
    ```
 
-   Then, in your Python code, load the key securely using:
+   Then, in your Python code, load the key securely.
 
-   ```python
-   import os
-   from dotenv import load_dotenv
 
-   load_dotenv()
-   api_key = os.getenv("API_KEY")
-   ```
-
-   > 🔒 **Never hard-code your API keys!** Use `.env` and add it to `.gitignore`.
-
+   >  **Never hard-code your API keys!**
 5. **Run the app**
 
    ```bash
